@@ -1,12 +1,6 @@
-// Defalt stylings
-@import "globals";
-
-// Styling responsiveness
-@import "mixins";
-
-// Defalt variables
 @import "variables";
-@import "font-imports";
-
-//bootstrap scss
-@import "bootstrap/bootstrap.scss";
+// @import "mixins";
+@import "globals";
+@import "font";
+@import "header";
+@import "footer";
