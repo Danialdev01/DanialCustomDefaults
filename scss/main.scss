@@ -1,6 +1,8 @@
-@import "variables";
+@import "./Custom/variables";
 // @import "mixins";
-@import "globals";
-@import "font";
-@import "header";
-@import "footer";
+@import "./Default/globals";
+@import "./Default/font";
+@import "./Default/customsets";
+@import "./Custom/header";
+@import "./Custom/footer";
+@import "./Custom/body";
