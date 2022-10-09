@@ -291,7 +291,7 @@ ul li {
 .box {
   border: solid black 1px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 .box-transparent {
   border: transparent;
@@ -447,4 +447,6 @@ ul li {
 }
 .pl-10 {
   padding-left: 100px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

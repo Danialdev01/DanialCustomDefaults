@@ -1,4 +1,4 @@
-# Danial Custom Defaults 
+# Danial Custom Defaults
 
 Package of styling and defaults for web development.
 
@@ -20,10 +20,22 @@ https://github.com/Danialdev01/DanialCustomDefaults
 
 #### Vscode :
 
-Open command palet or press Ctrl + Shift + p 
+Open command palet or press Ctrl + Shift + p
 
 Type `ext install sass-indented` in the command palet
 
 Install the extention and press watch sass
 
 #### Terminal :
+
+(make sure you have install sass)
+
+```
+cd ~ | npm install -g sass
+```
+
+then run 
+
+```
+sass --watch scss/main.scss src/css/main.css
+```
