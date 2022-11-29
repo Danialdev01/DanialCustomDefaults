@@ -1,6 +1,6 @@
 # Danial Custom Defaults
 
-Package of styling and defaults for web development.
+Package of styling and defaults for web development.Easy to use css template 
 
 ## Things :
 - [Installation](#installation)
@@ -30,6 +30,8 @@ Open command palet or press Ctrl + Shift + p
 Type `ext install sass-indented` in the command palet
 
 Install the extention and press watch sass
+
+(Try to only add/edit in /scss/Custom)
 
 #### Terminal :
 
