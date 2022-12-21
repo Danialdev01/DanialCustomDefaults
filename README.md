@@ -1,4 +1,4 @@
-# Danial Custom Defaults
+# EasySassTemplate
 
 Package of styling and defaults for web development.Easy to use css template 
 
