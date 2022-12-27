@@ -1,17 +1,6 @@
 # EasySassTemplate
 
-Package of styling and defaults for web development.Easy to use css template 
-
-## Things :
-- [Installation](#installation)
-- [Usage](#usage)
-- [Sass Styling](#sass-styling)
-
-## Features :
-
-* Rensponsive Designs
-* Easy to set variables
-* Easy to Customize
+Your asking why dont I just use tailwind. Because I want sass and I'm bored.
 
 ## Installation :
 
