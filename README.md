@@ -7,7 +7,7 @@ Your asking why dont I just use tailwind. Because I want sass and I'm bored.
 Go in terminal and go into working directory and paste :
 
 ```
-git clone https://github.com/Danialdev01/EasySassTemplate
+git clone https://github.com/Danialdev01/EasySassTemplate assets/
 ```
 
 ## Usage :
