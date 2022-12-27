@@ -18,7 +18,7 @@ Package of styling and defaults for web development.Easy to use css template
 Go in terminal and go into working directory and paste :
 
 ```
-git clone https://github.com/Danialdev01/EasySassTemplate
+git clone https://github.com/Danialdev01/EasySassTemplate assets/
 ```
 
 ## Usage :
