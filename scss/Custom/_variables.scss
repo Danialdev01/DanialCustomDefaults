@@ -2,12 +2,24 @@
 @import "../Default/setcolor";
 
 //@, Defalt color
-$primary-clr:#000080;
-$second-clr:hsl(192, 70%, 51%);
+$primary-color:#000080;
+$secondary-color:hsl(192, 70%, 51%);
 
 //@ Section 
-$body-clr:$white;
+$body-bg:$primary-color;
+$body-color:$secondary-color;
+$section-bg:$primary-color;
+$section-color:$secondary-color;
+
+//@ Font Style
 $defalt-font:'Public Sans', sans-serif;
+$h1-font:$defalt-font;
+$h2-font:$defalt-font;
+$h3-font:$defalt-font;
+$h4-font:$defalt-font;
+$h5-font:$defalt-font;
+$p-font:$defalt-font;
+
 
 //@, Text 
 $h1:$black;
@@ -18,12 +30,19 @@ $h5:$black;
 $p: $black;
 
 //@ Button 
-$button: $cyan;
-$buttton-hover:$cyan;
+$button-color:$black;
+$button-bg: $cyan;
+$button-color-hover:$black;
+$buttton-bg-hover:$cyan;
+
+//@ Input 
+$input-bg:$white;
+$input-color:$black;
+$input-focus-outline:none;
 
 //@ Links
-$link:cyan;
-$link-hover:cyan;
+$link-color:cyan;
+$link-color-hover:cyan;
 
 //?, saiz font
 $font-large:2.5rem;

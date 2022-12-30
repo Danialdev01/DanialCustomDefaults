@@ -1,5 +1,6 @@
 //@ Set COlors
 @import "./colors";
+// @import "../Custom/variables";
 
 //* Font color
 .white{
@@ -33,6 +34,8 @@
     &-9{color: $blue9;}
     &-10{color: $blue10;}
 }
+
+// TODO Add color gradient
 .red{
     color: $red;
 }
@@ -45,6 +48,9 @@
 
 //* Background color
 .bg{
+    // FIXME Fix why cant use primary and secondary as bg color
+    // &-primary{background-color: $primary-color;}
+    // &-secondary{background-color: $secondary-color;}
     &-black{background-color:  $black;}
     &-red{background-color:    $red;}
     &-blue{background-color:   $blue1 ;}
