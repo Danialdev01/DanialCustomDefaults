@@ -1,6 +1,6 @@
 //@ Section Styling 
 html {
-    font-size: 100%;
+    font-size: $percent100;
     box-sizing: border-box;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -18,12 +18,12 @@ body {
     font-size: $font-med;
     background-color: $body-bg;
     color: $body-color;
-    width: 100%;
-    height: 100%;
+    width: $percent100;
+    height: $percent100;
     overflow-x: hidden;
 }
 section {
-    width: 100%;
+    width: $percent100;
     float: left;
     height: 100vh;
     position: relative;
@@ -35,10 +35,11 @@ section {
 //@ Link
 a{
     color: $link-color;
-    text-decoration: none;
+    text-decoration: $link-decoration;
 
     &:hover{
         color: $link-color-hover;
+        text-decoration: $link-hover-decoration;
     }
 }
 
@@ -46,6 +47,8 @@ a{
 button{
     background-color: $button-bg;
     color: $button-color;
+    border: $button-border;
+
     &:hover{
         background-color: $buttton-bg-hover;
         color: $button-color-hover;
@@ -55,6 +58,7 @@ button{
 input{
     background-color: $input-bg;
     color: $input-color;
+    border:$input-border;
 
     &:focus{
         outline: $input-focus-outline;
@@ -64,27 +68,27 @@ input{
 //@ Text
 h1 {
     font-style: $h1-font;
-    color: $h1;
+    color: $h1-color;
 }
 h2 {
     font-style: $h2-font;
-    color: $h2;
+    color: $h2-color;
 }
 h3 {
     font-style: $h3-font;
-    color: $h3;
+    color: $h3-color;
 }
 h4 {
     font-style: $h4-font;
-    color: $h4;
+    color: $h4-color;
 }
 h5 {
     font-style: $h5-font;
-    color: $h5;
+    color: $h5-color;
 }
 p {
     font-style: $p-font;
-    color: $p;
+    color: $p-color;
 }
 ul li {
     list-style: none;

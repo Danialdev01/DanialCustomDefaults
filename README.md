@@ -1,13 +1,13 @@
 # EasySassTemplate
 
-Your asking why dont I just use tailwind. Because I want sass and I'm bored.
+It's just a bad version of tailwind but with sass files.
 
 ## Installation :
 
 Go in terminal and go into working directory and paste :
 
 ```
-git clone https://github.com/Danialdev01/EasySassTemplate assets/
+git clone https://github.com/Danialdev01/EasySassTemplate src/
 ```
 
 ## Usage :
@@ -21,6 +21,7 @@ Type `ext install sass-indented` in the command palet
 Install the extention and press watch sass
 
 (Try to only add/edit in /scss/Custom)
+base and Animation folder are just the defaults but feel free to edit if you see fit.
 
 #### Terminal :
 
