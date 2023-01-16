@@ -7,7 +7,7 @@ It's just a bad version of tailwind but with sass files.
 Go in terminal and go into working directory and paste :
 
 ```
-git clone https://github.com/Danialdev01/EasySassTemplate src/
+git clone https://github.com/Danialdev01/EasySassTemplate assets/
 ```
 
 ## Usage :
