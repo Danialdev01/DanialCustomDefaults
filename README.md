@@ -4,8 +4,16 @@ It's just a bad version of tailwind but with sass files.
 
 ## Installation :
 
-Go in terminal and go into working directory and paste :
-
+(if you are using src/assets/ folder structure)
+```
+cd src/ 
+```
+or
+```
+mkdir src/
+cd src/
+```
+install the packages
 ```
 git clone https://github.com/Danialdev01/EasySassTemplate assets/
 ```
