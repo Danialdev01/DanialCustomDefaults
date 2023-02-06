@@ -20,6 +20,11 @@ git clone https://github.com/Danialdev01/EasySassTemplate assets/
 
 ## Usage :
 
+#### CDN :
+```
+https://cdn.jsdelivr.net/gh/Danialdev01/EasySassTemplate@CDN-READY/src/assets/css/main.css
+```
+
 #### Vscode :
 
 Open command palet or press Ctrl + Shift + p
