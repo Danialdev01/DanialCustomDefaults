@@ -1,19 +1,25 @@
 // @ Vimport colors to use 
+//TODO import all themes
 @import "../Base/setcolor";
 
 
 //* edit styles below 
-
+// TODO add themes
 //@, Defalt color
-$primary-color:$gray-300;
-$secondary-color:$black;
-$third-color:$blue1;
+$color1:$gray-200;
+$color2:$black;
+$color3:$blue1;
+//^contra color
+$con-color1:$gray-200;
+$con-color2:$black;
+$con-color3:$black;
 
+//TODO set all color to default prmary, secondary, and third atau varient con(contra)
 //@ Section 
-$body-bg:$primary-color;
-$body-color:$secondary-color;
-$section-bg:$primary-color;
-$section-color:$secondary-color;
+$body-bg:$color1;
+$body-color:$color2;
+$section-bg:$color1;
+$section-color:$color2;
 
 //@ Font 
 $defalt-font:'Public Sans', sans-serif;
@@ -47,11 +53,17 @@ $p-color: $black;
 
 
 //@ Button 
-$button-color:$black;
-$button-bg: $cyan;
-$button-color-hover:$black;
-$buttton-bg-hover:$cyan;
+$button-color:$white;
+$button-bg: $blue1;
 $button-border:none;
+//^ hover
+$button-color-hover:$white;
+$buttton-bg-hover:$blue9;
+$button-border-hover : none;
+//^ focus
+$button-color-focus:$white;
+$button-bg-focus:blue10;
+$button-border-focus : 2px solid black;
 
 //@ Input 
 $input-bg:$white;

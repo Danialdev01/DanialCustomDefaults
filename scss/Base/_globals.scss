@@ -52,6 +52,12 @@ button{
     &:hover{
         background-color: $buttton-bg-hover;
         color: $button-color-hover;
+        border: $button-border-hover;
+    }
+    &:focus{
+        background-color: $button-bg-focus;
+        color: $button-color-focus;
+        border: $button-border-focus;
     }
 }
 
