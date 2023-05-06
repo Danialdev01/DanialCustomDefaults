@@ -1,4 +1,4 @@
-# EasySassTemplate
+# EasyScssTemplate
 
 It's just a bad version of tailwind but with sass files.
 
