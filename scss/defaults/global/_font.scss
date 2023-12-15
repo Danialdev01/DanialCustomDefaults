@@ -1,0 +1,61 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,300&display=swap');
+
+//@ Font size
+
+@each $font-size, $size in $font-sizes{
+    .text-#{$font-size}{
+        font-size: #{$size};
+    }
+}
+
+// @ Font weight
+
+@each $font-weight, $weight in $font-weights{
+    .font-#{$font-weight}{
+        font-weight: #{$weight};
+    }
+}
+
+//@ Font type
+
+h1 {
+    font-family: $h1-font-family;
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    color: $h1-color;
+}
+h2 {
+    font-family: $h2-font-family;
+    font-size: $h2-font-size;
+    font-weight: $h2-font-weight;
+    color: $h2-color;
+}
+h3 {
+    font-family: $h3-font-family;
+    font-size: $h3-font-size;
+    font-weight: $h3-font-weight;
+    color: $h3-color;
+}
+h4 {
+    font-family: $h4-font-family;
+    font-size: $h4-font-size;
+    font-weight: $h4-font-weight;
+    color: $h4-color;
+}
+h5 {
+    font-family: $h5-font-family;
+    font-size: $h5-font-size;
+    font-weight: $h5-font-weight;
+    color: $h5-color;
+}
+p {
+    font-family: $p-font-family;
+    font-size: $p-font-size;
+    font-weight: $p-font-weight;
+    color: $p-color;
+}
+ul li {
+    list-style: none;
+    text-decoration-color: none;
+}

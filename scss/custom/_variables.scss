@@ -1,0 +1,283 @@
+// @ Vimport colors to use 
+//TODO import all themes
+// TODO add themes
+@import "../defaults/global/colors";
+
+
+//* edit styles below 
+//@, Defalt color
+
+
+$primary-light:#0d0b80;// 10
+$secondary-light:#2bffd1;// 30
+$third-light:#F2F2F2;// 70
+$fourth-light:black;
+
+$primary:#0d0b80;// 10
+$secondary:#2bffd1;// 30
+$third:#F2F2F2;// 70
+$fourth:black;
+
+$primary-dark:#008cff;
+$secondary-dark: #0300b6;
+$third-dark:rgb(14, 12, 12);
+$fourth-dark:white;
+
+$type : dark;
+
+$color-palet-type:dark;
+
+$con-color1:$black;
+$con-color2:$black;
+$con-color3:$black;
+
+//@ Section 
+
+$body-bg: color-palet-type($third-dark, $type);
+$body-color:$fourth;
+$body-width: 100%;
+$body-height:100%;
+
+
+$section-bg:$primary;
+$section-color:$secondary;
+
+//@ Font 
+
+$defalt-font:'Public Sans', sans-serif;
+
+$font-sizes: (
+    "xsm": 0.2rem,
+    "sm": 0.5rem,
+    "base": 1rem,
+    "lg": 1.5rem,
+    "xl": 1.7rem,
+    "2xl": 2rem,
+    "3xl": 2.5rem,
+    "4xl": 3rem
+);
+
+$font-weights: (
+    "thin": 200,
+    "light": 300,
+    "normal": 400,
+    "semi":500,
+    "bold":700,
+    "bolder": 800
+);
+
+
+//@, Text 
+
+$h1-font-family: $defalt-font;
+$h1-font-size: font-sizes(4xl) ;
+$h1-font-weight: font-weights(bold);
+$h1-color:$fourth;
+
+$h2-font-family: $defalt-font;
+$h2-font-size: font-sizes(3xl) ;
+$h2-font-weight: font-weights(bold);
+$h2-color:$fourth;
+
+$h3-font-family: $defalt-font;
+$h3-font-size: font-sizes(2xl) ;
+$h3-font-weight: font-weights(bold);
+$h3-color:$fourth;
+
+$h4-font-family: $defalt-font;
+$h4-font-size: font-sizes(xl) ;
+$h4-font-weight: font-weights(bold);
+$h4-color:$fourth;
+
+$h5-font-family: $defalt-font;
+$h5-font-size: font-sizes(lg) ;
+$h5-font-weight: font-weights(bold);
+$h5-color:$fourth;
+
+$p-font-family: $defalt-font;
+$p-font-size: font-sizes(base) ;
+$p-font-weight: font-weights(bold);
+$p-color:$fourth;
+
+
+//@ Button 
+
+$button-color:$third;
+$button-bg: $primary;
+$button-border: none;
+$button-border-radius:2px;
+
+$button-color-hover:$third;
+$buttton-bg-hover:$secondary;
+$button-border-hover : none;
+
+$button-color-focus:$white;
+$button-bg-focus:blue10;
+$button-border-focus : none;
+
+//@ Input 
+
+$input-bg:$white;
+$input-color:$black;
+$input-focus-outline:none;
+$input-border:none;
+
+//@ Links
+
+$link-color:$primary;
+$link-decoration:none;
+
+$link-color-hover:$secondary;
+$link-hover-decoration:none;
+
+//@ Responsive
+
+$breakpoints-up: (
+    "medium": "40em", 
+    "large": "64em", 
+    "xlarge": "87.5em"
+);
+
+$breakpoints-down: (
+    "small": "41em", 
+    "medium":"63.9375em" , 
+    "large": "87.4375em",
+);
+
+//@ height
+
+$heights: (
+    "1": "10px",
+    "2": "20px",
+    "3": "30px",
+    "4": "40px",
+    "5": "50px",
+    "6": "60px",
+    "7": "70px",
+    "8": "80px",
+    "9": "90px",
+    "10": "100px",
+    "10per": "10%",
+    "20per": "20%",
+    "30per": "30%",
+    "40per": "40%",
+    "50per": "50%",
+    "60per": "60%",
+    "70per": "70%",
+    "80per": "80%",
+    "90per": "90%",
+    "100per": "100%",
+    "25vh": "25vh",
+    "50vh": "50vh",
+    "75vh": "75vh",
+    "100vh": "100vh"
+);
+
+//@ width
+
+$widths: (
+    "1": "10px",
+    "2": "20px",
+    "3": "30px",
+    "4": "40px",
+    "5": "50px",
+    "6": "60px",
+    "7": "70px",
+    "8": "80px",
+    "9": "90px",
+    "10": "100px",
+    "10per": "10%",
+    "20per": "20%",
+    "30per": "30%",
+    "40per": "40%",
+    "50per": "50%",
+    "60per": "60%",
+    "70per": "70%",
+    "80per": "80%",
+    "90per": "90%",
+    "100per": "100%",
+    "25vw": "25vw",
+    "50vw": "50vw",
+    "75vw": "75vw",
+    "100vw": "100vw"
+);
+
+//@ padding 
+
+$padding-vers: (
+    "p" : "padding",
+    "pl": "padding-left",
+    "pr": "padding-right",
+    "pt": "padding-top",
+    "pb": "padding-bottom",
+);
+    
+$paddings: (
+    "1":   "10px",
+    "1-5": "15px",
+    "2":   "20px",
+    "2-5": "25px",
+    "3":   "30px",
+    "3-5": "35px",
+    "4":   "40px",
+    "4-5": "45px",
+    "5":   "50px",
+    "5-5": "55px",
+    "6":   "60px",
+    "6-5": "65px",
+    "7":   "70px",
+    "7-5": "75px",
+    "8":   "80px",
+    "8-5": "85px",
+    "9":   "90px",
+    "9-5": "95px",
+    "10":  "100px",
+    "10-5": "105px",
+    "10per": "10%",
+    "15per": "15%",
+    "20per": "20%",
+    "25per": "25%",
+    "30per": "30%",
+    "35per": "35%",
+    "40per": "40%",
+    "45per": "45%",
+    "50per": "50%",
+    "55per": "55%",
+    "60per": "60%",
+    "65per": "65%",
+    "70per": "70%",
+    "75per": "75%",
+    "80per": "80%",
+    "85per": "85%",
+    "90per": "90%",
+    "95per": "95%",
+    "100per":"100%",
+);
+
+//@ border radius
+$border-radiuses:(
+    "1": "1px",
+    "2": "2px",
+    "3": "3px",
+    "4": "4px",
+    "5": "5px",
+    "6": "6px",
+    "7": "7px",
+    "8": "8px",
+    "9": "9px",
+    "10": "10px",
+    "10per": "10%",
+    "20per": "20%",
+    "30per": "30%",
+    "40per": "40%",
+    "50per": "50%",
+    "60per": "60%",
+    "70per": "70%",
+    "80per": "80%",
+    "90per": "90%",
+    "100per": "100%",
+);
+
+//@ custom sets variables 
+
+$main-container-padding : 4%;

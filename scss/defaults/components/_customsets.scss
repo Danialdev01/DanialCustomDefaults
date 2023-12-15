@@ -1,0 +1,97 @@
+//@ Section based 
+.main-container{
+    padding-right:$main-container-padding;
+    padding-left: $main-container-padding;
+}
+
+//@ Flex
+.flex {
+    display: flex;
+
+    &-row{
+        display: flex;
+        flex-direction: row;
+    }
+    &-row-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    &-col{
+        display: flex;
+        flex-direction: column;
+    }
+    &-col-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+//@ height
+
+@each $height, $height-val in $heights{
+    .h-#{$height}{
+        height: #{$height-val};
+    }
+}
+
+@each $height, $height-val in $heights{
+    .min-h-#{$height}{
+        min-height: #{$height-val};
+    }
+}
+
+@each $height, $height-val in $heights{
+    .max-h-#{$height}{
+        max-height: #{$height-val};
+    }
+}
+
+//@ width
+
+@each $width, $width-val in $widths{
+    .w-#{$width}{
+        width: #{$width-val};
+    }
+}
+
+@each $width, $width-val in $widths{
+    .min-w-#{$width}{
+        min-width: #{$width-val};
+    }
+}
+
+@each $width, $width-val in $widths{
+    .max-w-#{$width}{
+        max-width: #{$width-val};
+    }
+}
+
+//@ padding
+@each $padding-ver, $padding-ver-val in $padding-vers{
+    @each $padding, $padding-val in $paddings{
+        .#{$padding-ver}-#{$padding}{
+            #{$padding-ver-val} :$padding-val;
+        }
+    }
+}
+
+@each $padding, $padding-val in $paddings{
+    .px{
+        padding-left : $padding-val;
+        padding-right : $padding-val;
+    }
+}
+@each $padding, $padding-val in $paddings{
+    .py{
+        padding-top : $padding-val;
+        padding-bottom : $padding-val;
+    }
+}
+
+//@ border radius
+
+@each $border-radius, $border-radius-val in $border-radiuses{
+    .br-#{$border-radius}{
+        border-radius: #{$border-radius-val};
+    }
+}

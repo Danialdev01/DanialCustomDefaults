@@ -1,0 +1,19 @@
+
+//@ Fonts
+
+@function font-sizes($font-size) {
+  $font-size-val : map-get($font-sizes, #{$font-size});
+  @return clamp($font-size-val - 0.1rem, $font-size-val + 2vw, $font-size-val + 0.1rem);
+
+}
+
+@function font-weights($font-weight) {
+  @return map-get($font-weights, #{$font-weight});
+}
+
+@function color-palet-type($colortype, $theme){
+  @if $theme == "dark"{
+    $color : #{$colortype}-dark;
+    @return $color;
+  }
+}
